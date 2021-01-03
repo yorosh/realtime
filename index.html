@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  <!-- jqueryで実装する場合 -->
+        <link rel="stylesheet" href="main.css">
+        <title>リアルタイムフィルター</title>
+    </head>
+
+    <body>
+      <div class="width">
+        <h3 >リアルタイム</h3>
+        <p>入力した文字を含まない場合非表示になります</p>
+        <form >
+          <input type="text" placeholder="キーワードを入力" id="keyword">
+        </form>
+      <div id="list" class="contents"　>
+        <div class="contents-width">
+          <img src="https://img-cdn.guide.travel.co.jp/article/999/31206/6E27665A71E34BA2B52CDB816ECBB6EE_LL.jpg" >
+          <p >キーワード <br>海　sea</p>
+        </div>
+        <div  class="contents-width">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Tateshinayama-fuyu.JPG/1200px-Tateshinayama-fuyu.JPG" >
+          <p>キーワード <br>山　mountain</p>
+        </div>
+        <div  class="contents-width">
+          <img src="https://yuranonomori.jp/wp-content/uploads/2018/10/73db7ef8f039361fbdec842a8676ac07-1024x682.jpg" >
+          <p>キーワード <br>森　forest</p>
+        </div>
+        <div  class="contents-width">
+          <img src="https://oggi.jp/wp-content/uploads/2020/04/main-2-7-800x500.jpg" >
+          <p>キーワード <br>月 moon</p>
+        </div>
+      </div>    
+    </div> 
+        <script src="main.js"></script>
+        <script src="jquery.quicksearch.min.js"></script>
+</html>

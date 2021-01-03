@@ -1,0 +1,29 @@
+.width{
+  width: 1000px;
+  padding:0 200px;
+}
+h3{
+  font-size: 20px;
+  margin: 0px;
+}
+p{
+  margin: 5px;
+}
+.contents{
+  display: flex;
+  flex-flow: wrap;
+}
+.contents-width{
+  border: solid 1px black;
+  margin: 10px 20px 0 0;
+  display: inline-block ;
+  width: 45%;
+}
+.contents-width img{
+  width: 400px;
+  height: 320px;
+  margin: 20px 20px 0  20px;
+}
+.contents-width p {
+  padding: 5px 20px ;
+}
